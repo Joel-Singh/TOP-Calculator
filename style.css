@@ -36,3 +36,11 @@ body {
   border: cadetblue;
   border-style: solid;
 }
+
+button {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
