@@ -14,3 +14,11 @@ body {
   border: black;
   border-style: solid;
 }
+
+#screen {
+  height: 15vh;
+}
+
+#buttons {
+  height: 100%;
+}
