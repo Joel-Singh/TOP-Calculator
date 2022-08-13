@@ -28,4 +28,5 @@ body {
 
 #buttons {
   height: 100%;
+  flex-direction: column;
 }
