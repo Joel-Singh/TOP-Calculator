@@ -25,10 +25,14 @@ body {
 
 #screen {
   height: 15vh;
+  border: navy;
+  border-style: solid;
 }
 
 #buttons {
   height: 100%;
   flex-direction: column;
   justify-content: space-around;
+  border: cadetblue;
+  border-style: solid;
 }
