@@ -15,6 +15,7 @@ body {
 }
 
 #calculator {
+  flex-direction: column;
   height: 70vh;
   width: 45vh;
   border: black;
