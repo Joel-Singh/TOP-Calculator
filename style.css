@@ -11,4 +11,6 @@ body {
 #calculator {
   height: 70vh;
   width: 45vh;
+  border: black;
+  border-style: solid;
 }
