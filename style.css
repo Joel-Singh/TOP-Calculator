@@ -1,11 +1,17 @@
-body {
+body,
+#calculator,
+.row,
+#buttons {
   display: flex;
+}
+
+body {
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
 .row {
-  display: flex;
 }
 
 #calculator {
