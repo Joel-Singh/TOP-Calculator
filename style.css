@@ -12,6 +12,7 @@ body {
 }
 
 .row {
+  justify-content: space-evenly;
 }
 
 #calculator {
@@ -29,4 +30,5 @@ body {
 #buttons {
   height: 100%;
   flex-direction: column;
+  justify-content: space-around;
 }
