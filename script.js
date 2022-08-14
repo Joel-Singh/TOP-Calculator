@@ -16,5 +16,6 @@ numbers.forEach((e, i) =>
 operators.forEach((e, i) =>
   e.addEventListener("click", (e) => {
     currentOperator = e.target.id;
+    screen.textContent = e.target.textContent;
   })
 );
