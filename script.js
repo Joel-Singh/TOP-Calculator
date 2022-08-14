@@ -1,12 +1,12 @@
-let currentOperator = null;
-let readyForNextNum = false;
-let currentNum = 0;
-let pastNum = null;
 let screen = document.querySelector("#screen");
 screen.textContent = 0;
 let numbers = Array.from(document.querySelectorAll(".number"));
 let operators = Array.from(document.querySelectorAll(".operator"));
 let equal = document.querySelector("#equal");
+let currentNum = 0;
+let pastNum = null;
+let currentOperator = null;
+let readyForNextNum = false;
 
 numbers.forEach((e, i) =>
   e.addEventListener("click", (e) => {
